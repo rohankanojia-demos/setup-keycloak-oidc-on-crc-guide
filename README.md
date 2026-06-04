@@ -213,6 +213,8 @@ Wait until both show:
 
 Press `Ctrl+C` when complete.
 
+> **Important**: This rollout typically takes **1-2 minutes** to complete. The API server and console pods need to restart with the new OIDC configuration. Be patient and wait for both operators to show `PROGRESSING=False` before attempting to login.
+
 ### Step 2: Login via OIDC
 
 Login using the new OIDC provider:
